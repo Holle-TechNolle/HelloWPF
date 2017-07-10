@@ -24,5 +24,18 @@ namespace _02_MyFirstControls
         {
             InitializeComponent();
         }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Hi, ");
+            sb.Append(Name.Text + "! " );
+            sb.Append((bool)Male.IsChecked ? " Male" : " Female");
+            sb.Append((bool)Desktop.IsChecked ? ", Desktop" : "");
+            sb.Append((bool)Labtop.IsChecked ? ", Labtop" : "");
+            sb.Append((bool)Tablet.IsChecked ? ", Tablet" : "");
+            sb.Append(" Your job is: " + Job.Text);
+            MessageBox.Show(sb.ToString());
+        }
     }
 }
