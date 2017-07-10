@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWPF", "HelloWPF\HelloWPF.csproj", "{C7CB06F9-C06F-4754-AC7A-5B5321493235}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HelloWPF", "HelloWPF\01_HelloWPF.csproj", "{C7CB06F9-C06F-4754-AC7A-5B5321493235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_MyFirstControls", "02_MyFirstControls\02_MyFirstControls.csproj", "{0D879636-1EB1-4417-9BBB-E9E710395207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C7CB06F9-C06F-4754-AC7A-5B5321493235}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7CB06F9-C06F-4754-AC7A-5B5321493235}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7CB06F9-C06F-4754-AC7A-5B5321493235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D879636-1EB1-4417-9BBB-E9E710395207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D879636-1EB1-4417-9BBB-E9E710395207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D879636-1EB1-4417-9BBB-E9E710395207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D879636-1EB1-4417-9BBB-E9E710395207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
