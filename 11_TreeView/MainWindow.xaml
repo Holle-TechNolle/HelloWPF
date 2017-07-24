@@ -1,0 +1,31 @@
+﻿<Window x:Class="_11_TreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_11_TreeView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TreeView>
+            <TreeViewItem Header="Animals">
+                <TreeViewItem Header="Mamals">
+                    <TreeViewItem Header="Dogs">
+                        <TreeViewItem Header="Spaniel" />
+                        <TreeViewItem Header="Walking Dog" />
+                        <TreeViewItem Header="Retriever" />
+                    </TreeViewItem>
+                    <TreeViewItem Header="Cats">
+                        <TreeViewItem Header="Tiger" />
+                        <TreeViewItem Header="Leopard" />
+                        <TreeViewItem Header="Cougar" />
+                    </TreeViewItem>
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Plants">
+            </TreeViewItem>
+            <TreeViewItem Header="Other">
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>
